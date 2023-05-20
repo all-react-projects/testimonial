@@ -19,11 +19,11 @@ const Card = (props) => {
         <p className='text-violet-300 uppercase text-sm'>{review.job}</p>
       </div>
 
-      <div className='text-violet-400 mx-auto mt-5'>
+      <div className='text-violet-500 mx-auto mt-5 '>
         <FaQuoteLeft/>
       </div>
 
-      <div className='text-center mt-4 text-slate-500'>
+      <div className='text-center mt-4 text-violet-500'>
         {review.text}
       </div>
 
